@@ -2,10 +2,10 @@
 
 body{
 	
-	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0,0.7)), url("background/top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0,0.75)), url("background/top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table.jpg");
 	background-size: cover;
     background-position: center;
-    height: 800px;
+    height: 600px;
 	font-family:Vazirmatn Light;
 	font-size: 20px;
 }
@@ -14,14 +14,13 @@ body{
 	direction: rtl;
 	text-align: center;
 	width: 40%;
-	//height: 700px;
 	margin: 100px auto;
 	color: white;
-	padding-top: 200px;
+	padding-top: 80px;
 }
 
 fieldset{
-	border: 3px dashed #7DD1F7;
+	border: 3px solid #FDBA9D;
 	padding-bottom: 20px;
 }
 
@@ -36,7 +35,6 @@ input{
 	font-size: 15px;
 	text-align: center;
 	border: 3px solid black;
-	font-family:Vazirmatn Light;
 }
 
 input:active{
