@@ -6,15 +6,15 @@ body{
 	background-size: cover;
     background-position: center;
     height: 800px;
-	//font-family:Vazirmatn-Light; ??????
+	font-family:Vazirmatn Light;
 	font-size: 20px;
 }
 
 .continer{
 	direction: rtl;
 	text-align: center;
-	width: 36%;
-	height: 500px;
+	width: 40%;
+	//height: 700px;
 	margin: 100px auto;
 	color: white;
 	padding-top: 200px;
@@ -22,11 +22,12 @@ body{
 
 fieldset{
 	border: 3px dashed #7DD1F7;
+	padding-bottom: 20px;
 }
 
 legend{
 	text-align: right;
-	font-size: 15px;
+	font-size: 17px;
 }
 
 input{
