@@ -34,7 +34,9 @@ input{
 	height: 25px;
 	font-size: 15px;
 	text-align: center;
+	font-family:Vazirmatn Light;
 	border: 3px solid black;
+	
 }
 
 input:active{
