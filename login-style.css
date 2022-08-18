@@ -36,6 +36,7 @@ input{
 	font-size: 15px;
 	text-align: center;
 	border: 3px solid black;
+	font-family:Vazirmatn Light;
 }
 
 input:active{
