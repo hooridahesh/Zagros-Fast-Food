@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+body{
+	
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0,0.7)), url("background/top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table.jpg");
+	background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
