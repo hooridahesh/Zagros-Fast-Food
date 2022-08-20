@@ -6,21 +6,57 @@ body{
     background-position: center;
     height: 600px;
 	font-family:Vazirmatn Light;
-	font-size: 20px;
+	font-size: 22px;
 	color: white;
 }
 
 .continer{
 	direction: rtl;
+	margin: 20px 5px;
+}
+
+.menu{
 	float: right;
-}
-
-ul{
 	list-style-type: none;
-	display: inline-block;
+	display:-webkit-inline-box;
 }
 
-ul li ul{
-	//line-height: 180px;
+.menu li{
+	padding-left: 60px;
+}
+
+.submenu{
+	list-style-type: none;
+	//display: none;
+	margin-top: 55px;
+}
+
+.submenu li{
+	margin: 15px -152px 0px 0px;
+}
+
+#space{
+	padding-left: 180px;
+}
+
+.text{
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+	float: right;
+	width: 43%;
+	height: 80px;
+	text-align: center;
+	padding-top: 20px;
+	margin: 150px 425px;
+	border: 4px solid #F8BC8C;
+	border-radius: 25px;
+	font-size: 36px;	
+	transition: all ease 0.5s;
+}
+
+.text:hover{
+	//background-color: #97FC80;
+	background-image: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6));
+	border:4px solid #020E47;
+	color: black;
 }
 
