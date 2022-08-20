@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0,0.75)), url("background/top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table.jpg");
+	background-size: cover;
+    background-position: center;
+    height: 600px;
+	font-family:Vazirmatn Light;
+	font-size: 20px;
+	color: white;
+}
+
+.continer{
+	direction: rtl;
+	float: right;
+}
+
+ul{
+	list-style-type: none;
+	display: inline-block;
+}
+
+ul li ul{
+	//line-height: 180px;
+}
+
