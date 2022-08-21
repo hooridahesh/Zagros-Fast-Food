@@ -39,10 +39,12 @@ input{
 }
 
 input:active{
+	cursor: pointer;
 	background-color: #E3F064;
 }
 
 input[type="submit"]{
+	cursor: pointer;
 	background-color: #EAF959;
 	width: 17%;
 	height: 40px;
