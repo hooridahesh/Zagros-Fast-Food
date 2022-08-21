@@ -18,14 +18,14 @@ body{
 	overflow: hidden;
 }
 
-.drink img{
+.fried img{
 	display:-webkit-inline-box;
-	//width: 195px;
+	width: 195px;
 	height: 147px;
-	padding: 10px;
+	padding: 1px;
 }
 
-.drink{
+.fried{
 	text-align:center;
 	display:-webkit-inline-box;
 	width: 200px;
@@ -36,27 +36,28 @@ body{
 	transition: all ease 0.5s;
 }
 
-.drink h2{
+.fried h2{
 	display:-webkit-inline-box;
 	font-size: 17px;
-	margin-top: 1px;
+	margin-top: 11px;
 }
 
-.drink p{
+.fried p{
 	direction: rtl;
 	display:-webkit-inline-box;
 	font-size: 16px;
 	margin-top: -16px;
 }
 
-.drink:hover img {
+.fried:hover img {
 	cursor: pointer;
 	//filter:hue-rotate(180deg);
 	filter: grayscale(100%);
 }
 
-.drink:hover{
+.fried:hover{
 	cursor: pointer;
 	color: red;
 	border: 2px solid #FC0E74;
 }
+
