@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+body{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0,0.75)), url("../pictures/background/top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table.jpg");
+	background-size: cover;
+    background-position: center;
+    height: 600px;
+	font-family:Vazirmatn Light;
+	color:black;
+	//direction: ltr;
+}
+
+.continer{
+	//display:-webkit-inline-box;
+	//text-align: center;
+	margin-top: 52px;
+	margin-left: 176px;
+	//margin-right: 143px;
+	width: 77%;
+	height: 620px;
+	border: 2px solid #F8EE50;
+	overflow: hidden;
+}
+
+.drink img{
+	display:-webkit-inline-box;
+	width: 500;
+	height: 150px;
+	padding: 10px;
+}
+
+.drink{
+	text-align:center;
+	display:-webkit-inline-box;
+	width: 180px;
+	height: 260px;
+	margin: 23px;
+	border: 2px solid #4304FF;
+	background-color: white;
+	transition: all ease 0.5s;
+}
+
+.drink h2{
+	display:-webkit-inline-box;
+	font-size: 16px;
+	margin-top: 1px;
+}
+
+.drink p{
+	direction: rtl;
+	display:-webkit-inline-box;
+	font-size: 16px;
+	margin-top: -16px;
+}
+
+.drink:hover img {
+	cursor: pointer;
+	//filter:hue-rotate(180deg);
+	filter: grayscale(100%);
+}
+
+.drink:hover{
+	cursor: pointer;
+	color: red;
+	border: 2px solid #FC0E74;
+}
