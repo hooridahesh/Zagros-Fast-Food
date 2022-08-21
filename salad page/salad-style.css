@@ -18,14 +18,14 @@ body{
 	overflow: hidden;
 }
 
-.fried img{
+.salad img{
 	display:-webkit-inline-box;
 	width: 195px;
 	height: 147px;
 	padding: 1px;
 }
 
-.fried{
+.salad{
 	text-align:center;
 	display:-webkit-inline-box;
 	width: 200px;
@@ -36,26 +36,26 @@ body{
 	transition: all ease 0.5s;
 }
 
-.fried h2{
+.salad h2{
 	display:-webkit-inline-box;
 	font-size: 16px;
 	margin-top: 11px;
 }
 
-.fried p{
+.salad p{
 	direction: rtl;
 	display:-webkit-inline-box;
 	font-size: 16px;
 	margin-top: -16px;
 }
 
-.fried:hover img {
+.salad:hover img {
 	cursor: pointer;
 	//filter:hue-rotate(180deg);
 	filter: grayscale(100%);
 }
 
-.fried:hover{
+.salad:hover{
 	cursor: pointer;
 	color: red;
 	border: 2px solid #FC0E74;
