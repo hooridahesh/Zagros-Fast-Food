@@ -53,8 +53,6 @@ ul{
 }
 
 .submenu{
-	//display: block;
-	//list-style-type: none;
 	font-size: 19px;
 	//display: none;
 	//visibility: hidden;
@@ -69,7 +67,7 @@ ul .submenu{
 	padding: 0px;
 }
 
-li ul:hover .submenu{  
+//li ul:hover .submenu{  
 	visibility: visible;
 }
 
@@ -128,7 +126,12 @@ li ul:hover .submenu{
 }
 
 a{
-	//display:-webkit-inline-box;
 	text-decoration: none;
 	color: white;
 }
+
+li:hover a{
+	color: #030574;
+}
+
+
