@@ -31,6 +31,7 @@ ul{
 
 .menu{
 	display:-webkit-inline-box;
+
 }
 
 .menu li{
@@ -52,6 +53,7 @@ ul{
 }
 
 .submenu{
+	//display: block;
 	//list-style-type: none;
 	font-size: 19px;
 	//display: none;
@@ -126,6 +128,7 @@ li ul:hover .submenu{
 }
 
 a{
+	//display:-webkit-inline-box;
 	text-decoration: none;
 	color: white;
 }
